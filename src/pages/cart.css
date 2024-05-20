@@ -1,0 +1,18 @@
+/* .cart-inside-con{
+     background-color:white;
+     width:97vw;
+     height:83vh;
+     border-radius:20px;
+} */
+.cart-main-con{ 
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:97vw;
+    margin-left:15px;
+}
+.cart-main-con > div{
+    width:97vw;
+    overflow:scroll;
+    display:flex;
+}

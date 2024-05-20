@@ -1,0 +1,200 @@
+.imgPrev-con{
+    width:90%;
+    height:90vh;
+    margin:40px 0 0 30px;
+    display:flex;
+    gap:10px;
+    font-family:myfont;
+    font-weight:100;
+    margin-left:100px;
+    justify-content:center;
+}
+.imgs-div{
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+    width:80px;
+    height:400px;
+}
+.imgs-div >  img{
+    width:75px;
+    height:90px;
+}
+.main-img >img{
+    width:325px;
+}
+.des-con{
+    margin-left:50px;
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+    justify-content:center;
+    width:400px;
+    overflow:scroll;
+    padding-left:3px;
+    margin-top:-150px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.des-con::-webkit-scrollbar{
+    display:none;
+}
+.title{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+    /* margin-bottom:5px; */
+}
+.star-div{
+    display:flex;
+    align-items:center;
+    gap:5px;
+}
+.star-div > img{
+   width:15px;
+   height:15px;
+}
+.price-div{
+    display:flex;
+    gap:15px;
+    font-size:20px;
+}
+.old-price{
+    text-decoration: line-through;
+    opacity:0.7;
+}
+.new-price{
+    font-weight:500;
+}
+.color-label{
+    margin-top:20px;
+}
+.color-con{
+    display:flex;
+    gap:5px;
+}
+.radio{
+    position: relative;
+    display:none;
+}
+.lbl-divs{
+    width:26px;
+    height:26px;
+    border-radius:50%;
+}
+.lbl-div1{
+    background-color:rgb(120, 16, 16);
+}
+.lbl-div2{
+    background-color:rgb(41, 41, 202);
+}
+.lbl-div3{
+    background-color:green;
+}
+.lbl-div4{
+    background-color:rgb(255, 145, 0);
+}
+input[type="radio"]:checked + label > .lbl-divs{
+    outline:2px solid;
+}
+.size-con{
+    display:flex;
+    gap:10px;
+  }
+  .radio{
+      position: relative;
+      display:none;
+  }
+  .size-con > label > .inside-div{
+      padding:5px 10px;
+      border-radius:2px;
+      background-color:rgb(203, 203, 203);
+  }
+  .size-con > input[type="radio"]:checked + label > .inside-div{
+      background-color:black;
+      color:white;
+  }
+.size-label{margin-top:20px;}
+.btns-div{
+    margin:30px 0 0 0;
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+}
+.btns-div > .btns,.btns{
+    margin-left:4px;
+    padding:10px;
+    border-radius:30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:200;
+    color:white;
+    width:88%;
+    background-color:rgb(34, 34, 34);
+    transition:0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.btns-div > .btns:hover,.btns:hover{
+    transform:scale(1.02,1.02);
+    background-color:white;
+    color:black;
+}
+.activated{
+    background-color:black;
+}
+.product-des{
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.product-des > div > div> span >svg{
+    color:rgb(125, 125, 125);
+}
+hr{
+    margin-bottom:10px;
+}
+.product-details,.reviews-con,.address-con{
+    position: relative;
+    overflow:hidden;
+    cursor: pointer;
+}
+.product-details > div{
+    display:flex;
+    justify-content: space-between;
+}
+.reviews-con{
+    cursor:pointer;
+}
+.reviews-con > div{
+    display:flex;
+    justify-content: space-between;
+}
+.address-div{
+    cursor:pointer;
+}
+.address-con > div{
+    display:flex;
+    justify-content: space-between;
+}
+.product-details >section,.reviews-con > section,.address-con > section{
+      position:absolute;
+      top:-200px;
+      background-color:rgb(255, 255, 255);
+      width:100%;
+      height:100px;
+      font-size:14px;
+
+}
+.open-des{
+    animation:open1 1s cubic-bezier(0.39, 0.575, 0.565, 1) forwards;
+}
+@keyframes open1 {
+    to{
+        position:relative;
+        top:0px    }
+}
+.close-des{
+    animation:close 0.5s cubic-bezier(0.39, 0.575, 0.565, 1);
+}
+@keyframes close {
+    to{
+        position:absolute;
+        top:-100px;
+    }
+}
+
+

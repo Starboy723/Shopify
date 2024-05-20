@@ -1,0 +1,40 @@
+.home-main-con{
+     display:flex;
+     justify-content:center;
+     align-items:center;
+     flex-direction: column;
+}
+.type-con{
+     display:flex;
+     justify-content:center;
+     align-items:center;
+     flex-wrap: wrap;
+     margin-top:20px;
+     margin-bottom:10px;
+}
+.type-img{
+     transition:0.7s ease;
+}
+.type-img:hover{
+   transform:scale(1.03,1.03);
+}
+.banner1{
+     transition:0.3s ease;
+     width:95%;
+     transform:scale(1.03,1.03);
+}
+.banner1:hover{
+     transform:scale(0.9,0.9);
+}
+.banner-con{
+     display:flex;
+}
+.home-slider-con{
+    display:flex;
+    flex-direction: column;
+
+}
+.home-slider-con >div{
+     gap:10px;
+     display:flex;
+}

@@ -1,0 +1,33 @@
+.Salecomp-con{
+    width:100vw;
+    height:600px;
+    overflow:scroll;
+}
+.slide-div{
+    width:97vw;
+    gap:10px;
+    display:flex;
+    animation:slide1 10s 3s infinite alternate;
+    position:relative;
+    left:0px;
+    animation-timing-function:cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.slide-div > img:nth-child(3){
+    object-fit:cover;
+    object-position:80%;
+}
+.slide-div > img:nth-child(4){
+    object-fit:cover;
+    object-position:20%;
+}
+@keyframes slide1 {
+0%{
+   left:0px;
+} 
+65%{
+    left:-100px
+} 
+100%{
+    left:-470px
+} 
+}

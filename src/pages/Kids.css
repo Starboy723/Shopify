@@ -1,0 +1,10 @@
+.kids-banner{
+     width:95vw;
+     border-radius:10px;
+}
+.kids-main-con{
+     display:flex;
+     flex-direction: column;
+     justify-content:center;
+     align-items:center;
+}
