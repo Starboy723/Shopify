@@ -1,14 +1,6 @@
 @font-face {
   font-family:defaultfont;
-  src: url('C:\programs\HTML\fonts\deephero-r9vpm.otf');
-}
-@font-face {
-  font-family:myfont2;
-  src: url("C:\programs\HTML\fonts\._Fontspring-DEMO-integralcf-demiboldoblique.otf");
-}
-@font-face {
-  font-family:myfont3;
-  src: url("C:\programs\HTML\fonts\NIKEA.otf");
+  src: url('./Assets/deephero-r9vpm.otf');
 }
 body {
   margin: 0;

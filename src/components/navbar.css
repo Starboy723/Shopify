@@ -1,6 +1,6 @@
 @font-face {
     font-family:myfont;
-    src: url("C:\programs\HTML\fonts\deephero-r9vpm.otf");
+    src: url("../Assets/deephero-r9vpm.otf");
 }
 .main-nav-con{
     position:sticky;
